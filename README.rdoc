@@ -1,0 +1,21 @@
+== GazeFocus
+
+
+=== Depencencies
+    wmctrl <http://tomas.styblo.name/wmctrl/>
+    <webcam access, choosen later>
+
+
+=== Installation Instructions (Ubuntu)
+    sudo apt-get install wmctrl
+    ...
+
+
+=== Using Methods
+==== Focuscontrol
+    wmctrl -pGl #list all windows with pos,dim (and wonder if the z-index is the order they are listed) 
+    wmctrl -i -a 0x050000150 #focus the window with given window-id
+
+==== FaceRecognition (and finding the nose-direction)
+    ...
+
